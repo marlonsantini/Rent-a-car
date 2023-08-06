@@ -17,6 +17,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.Text
+import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -56,14 +57,14 @@ fun DetailScreen(navHostController: NavHostController) {
             )
             Card(
                 modifier = Modifier
-                    .padding(top = 230.dp)
+                    .padding(top = 250.dp)
                     .fillMaxSize()
                     .border(1.dp, Color.Black, shape = RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp)),
                 shape = RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp)
             ) {
                 LazyColumn(
                     modifier = Modifier
-                        .padding(bottom = 70.dp)
+                        .padding(bottom = 40.dp)
                 ) {
                     item {
                         Image(
@@ -74,6 +75,12 @@ fun DetailScreen(navHostController: NavHostController) {
                     }
                     item {
                         DriverInfo()
+                    }
+                    item {
+                        AdressInfo()
+                    }
+                    item {
+                        EstimatedTimeInfo()
                     }
                 }
             }
@@ -91,7 +98,7 @@ fun DriverInfo() {
             fontFamily = BebasFont,
             fontWeight = FontWeight.W600
         ),
-        modifier = Modifier.padding(horizontal = 30.dp)
+        modifier = Modifier.padding(horizontal = 20.dp)
     )
     Row(
         modifier = Modifier
@@ -113,7 +120,8 @@ fun DriverInfo() {
             Text(
                 text = "Kahoni Silva",
                 color = Color.DarkGray,
-                style = MaterialTheme.typography.labelLarge
+                style = MaterialTheme.typography.labelLarge,
+                fontSize = 20.sp
             )
             Spacer(modifier = Modifier.height(4.dp))
             Text(
@@ -128,6 +136,81 @@ fun DriverInfo() {
             modifier = Modifier
                 .align(Alignment.CenterVertically)
         )
+    }
+    Divider(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 8.dp),
+        thickness = 1.dp,
+        color = Color.LightGray
+    )
+}
+
+@Composable
+fun AdressInfo() {
+    Row(
+        modifier = Modifier
+            .padding(all = 12.dp)
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.ic_location),
+            contentDescription = "profile picture",
+            modifier = Modifier
+                .size(30.dp)
+                .clip(CircleShape)
+        )
+        Spacer(modifier = Modifier.width(8.dp))
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .align(Alignment.CenterVertically)
+        ){
+            Text(
+                text = "Endereço atual",
+                color = Color.LightGray,
+                style = MaterialTheme.typography.labelLarge
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "Boa Viagem Beach - Boa Viagem, Recife - PE",
+                color = Color.DarkGray,
+                style = MaterialTheme.typography.labelLarge
+            )
+        }
+    }
+}
+
+@Composable
+fun EstimatedTimeInfo() {
+    Row(
+        modifier = Modifier
+            .padding(all = 12.dp)
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.ic_time),
+            contentDescription = "profile picture",
+            modifier = Modifier
+                .size(30.dp)
+                .clip(CircleShape)
+        )
+        Spacer(modifier = Modifier.width(8.dp))
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .align(Alignment.CenterVertically)
+        ){
+            Text(
+                text = "Tempo estimado de chegada",
+                color = Color.LightGray,
+                style = MaterialTheme.typography.labelLarge
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "15:23",
+                color = Color.DarkGray,
+                style = MaterialTheme.typography.labelLarge
+            )
+        }
     }
 }
 
