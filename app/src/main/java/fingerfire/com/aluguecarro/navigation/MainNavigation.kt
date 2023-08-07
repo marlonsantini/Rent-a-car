@@ -22,7 +22,7 @@ fun MainNavigation() {
             HomeScreen(navHostController)
         }
         composable(DETAIL_SCREEN){
-            DetailScreen(navHostController)
+            DetailScreen()
         }
     }
 

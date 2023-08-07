@@ -32,14 +32,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavHostController
-import androidx.navigation.compose.rememberNavController
 import fingerfire.com.aluguecarro.R
 import fingerfire.com.aluguecarro.ui.theme.AluguecarroTheme
 import fingerfire.com.aluguecarro.ui.theme.BebasFont
 
 @Composable
-fun DetailScreen(navHostController: NavHostController) {
+fun DetailScreen() {
 
     Box(
         modifier = Modifier.fillMaxSize()
@@ -218,6 +216,6 @@ fun EstimatedTimeInfo() {
 @Composable
 fun DefaultPreview() {
     AluguecarroTheme {
-        DetailScreen(navHostController = rememberNavController())
+        DetailScreen()
     }
 }
