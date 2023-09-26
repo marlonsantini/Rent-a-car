@@ -361,11 +361,3 @@ fun CustomSearchBar(
         )
     }
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//fun DefaultPreview() {
-//    AluguecarroTheme {
-//        HomeScreen(navHostController = rememberNavController())
-//    }
-//}
