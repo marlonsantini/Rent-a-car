@@ -9,6 +9,7 @@
 
 <p align="center">
   <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300"><br>
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300"><br>
 </p>
 
 <p align="center">
