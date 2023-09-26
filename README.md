@@ -19,6 +19,8 @@
 - Minimum SDK level 30
 - [Kotlin](https://kotlinlang.org/)
 - [JetPack Compose](https://developer.android.com/jetpack/compose)
+- [JetPack](https://developer.android.com/jetpack)
+  - Navigator - Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app.
 
 Modules Design:
 - App
