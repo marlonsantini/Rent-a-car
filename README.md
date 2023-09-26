@@ -22,15 +22,22 @@
 
 Modules Design:
 - App
+  - Common
+     - commonUI 
+  - Model
+     - Car
+     - MenuItem 
+  - Navigation
+     - MainNavigation 
+  - Screens
+     - DetailScreen
+     - HomeScreen
+     - StartScreen  
   - Ui.theme
-    - Color
-    - Shape
-    - Theme
-    - Type
-   - InfoWater
-   - ProgressIndicatorWater
-   - CalculatorOperation
-   - WearApp
+     - Color
+     - Shape
+     - Theme
+     - Type
    - MainActivity
 
 # License
