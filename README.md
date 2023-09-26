@@ -7,10 +7,11 @@
   <img alt="MVVM" src="https://img.shields.io/badge/Jetpack Compose-Interface-orange"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300"><br>
-  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300"><br>
-</p>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/homeScreen.png" width="300">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/detailScreen.png" width="300">
+</div>
 
 <p align="center">
 🚗 Rent-A-Car is a sample application that showcases the implementation of Jetpack Compose and Navigation to create a modern and intuitive car rental experience.
