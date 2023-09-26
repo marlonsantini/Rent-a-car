@@ -8,9 +8,9 @@
 </p>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="300">
-  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/homeScreen.png" width="300">
-  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/detailScreen.png" width="300">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="200">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/homeScreen.png" width="200">
+  <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/detailScreen.png" width="200">
 </div>
 
 <p align="center">
