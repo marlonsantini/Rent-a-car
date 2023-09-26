@@ -7,7 +7,7 @@
   <img alt="MVVM" src="https://img.shields.io/badge/Jetpack Compose-Interface-orange"/>
 </p>
 
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center;">
   <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/startScreen.png" width="200">
   <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/homeScreen.png" width="200">
   <img src="https://github.com/marlonsantini/Rent-a-car/blob/master/detailScreen.png" width="200">
